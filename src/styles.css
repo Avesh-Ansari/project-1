@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* LandingPage */
+.landing-page {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .landing-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page .btn-container {
+    margin-top: 20px;
+  }
+  
+  .landing-page .btn {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .landing-page #create-account-btn {
+    background-color: purple !important;
+    color: white;
+  }
+  
+  .landing-page #already-registered-btn {
+    background-color: #d6d6f5; /* Light purple */
+    color: black;
+  }
+  
+  .landing-page p {
+    color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+  }
+  
+  /* RegisterForm, LoginForm */
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .form-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .form-container input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  /* AccountDetail */
+  .account-details {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .account-details h2 {
+    margin-bottom: 20px;
+  }
+  
+  .account-details p {
+    margin-bottom: 10px;
+  }
+  
